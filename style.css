@@ -1,0 +1,42 @@
+* {
+    background-color: rgb(145, 145, 145);
+    margin: 20px;
+
+}
+.grid {
+    display: grid;
+    /* Note: used in lieu of padding with grids */
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px
+}
+.box {
+    background-color: rgb(145, 145, 145);
+    color: black;
+  }
+
+h1 {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 50px;
+}
+
+h5 {
+    text-align:center;
+    font-family: 'Playfair Display', serif;
+    font-size: 25px;
+}
+
+p {
+    text-align: justify;
+    font-family: 'Economica', sans-serif;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+  }
+footer{
+    font-weight: 700;
+}
