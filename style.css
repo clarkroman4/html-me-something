@@ -4,15 +4,18 @@
 
 }
 .grid {
-    display: grid;
+    display: flex;
     /* Note: used in lieu of padding with grids */
-    grid-template-rows: 1fr 1fr;
+    /* flex-flow: column wrap; */
+    /* grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 20px
+    grid-gap: 20px */
 }
 .box {
     background-color: rgb(145, 145, 145);
     color: black;
+    align-content: center;
+    justify-content: center;
   }
 
 h1 {
