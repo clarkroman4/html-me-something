@@ -4,13 +4,12 @@
 
 }
 .grid {
-    display: flex;
+    display: grid;
     /* Note: used in lieu of padding with grids */
-    /* flex-flow: column wrap; */
-    /* grid-template-rows: 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 20px */
-}
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 20px; 
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+} 
 .box {
     background-color: rgb(145, 145, 145);
     color: black;
@@ -18,6 +17,10 @@
     justify-content: center;
   }
 
+img {
+    max-width: 150px;
+    max-height:auto;
+}
 h1 {
     text-align: center;
     font-family: 'Playfair Display', serif;
