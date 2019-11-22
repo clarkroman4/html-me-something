@@ -17,6 +17,10 @@
     justify-content: center;
   }
 
+#heading {
+    color: darkslategrey;
+}
+
 img {
     max-width: 150px;
     max-height:auto;
@@ -45,6 +49,7 @@ img {
     border-radius: 5px;
   }
 .footer{
+    padding: 20px;
     font-weight: 700;
     text-align: center;
 }
